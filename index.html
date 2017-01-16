@@ -29,9 +29,9 @@ function initMap() {
 
   map.data.setStyle(styleFeature);
 
-  // Get the earthquake data (JSONP format)
-  // This feed is a copy from the USGS feed, you can find the originals here:
-  //   http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+  // Get the population data (JSONP format)
+  // This is the json the data is pulled from
+  // 
   var script = document.createElement('script');
   script.setAttribute('src',
     'https://garstep.github.io/g.project1e.geo.json');
