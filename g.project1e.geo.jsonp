@@ -1,0 +1,77 @@
+eqfeed_callback(
+
+{"type":"FeatureCollection",
+"metadata":{
+	"url":"...",
+	"title":"...",
+			},
+
+	
+	"features":
+
+	[
+
+		{"type":"Feature",
+			"properties":{"mag":2.5,
+			"place":"indi",
+			"time":1394592896000,
+			"updated":1394843557030,			
+			"rms":0.61,
+			"title":"holland"},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-86.1480,39.7933]}},
+
+		
+
+				{"type":"Feature",
+			"properties":{"mag":4.3,
+			"place":"holland",
+			"time":1394592896000,
+			"updated":1394843557030,			
+			"rms":0.61,
+			"title":"holland"},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-83.1000,40.7833]}},
+
+			{"type":"Feature",
+			"properties":{"mag":2.6,
+			"place":"chi town",
+			"time":1394592896040,
+			"updated":1394843556030,			
+			"rms":0.61,
+			"title":"chi rager"},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-87.6847,41.8369]}},
+	
+
+		{"type":"Feature",
+			"properties":{"mag":3.7,
+			"place":"Los Angeles",
+			"time":1394592896000,
+			"updated":1394843557030,			
+			"rms":0.61,
+			"title":"Los Angeles"},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-118.2500,34.0500]},
+		},
+
+		{"type":"Feature",
+			"properties":{"mag":3.3,
+			"place":"miami",
+			"time":1394592836000,
+			"updated":1394842557030,			
+			"rms":0.11,
+			"title":"miami"},
+			"geometry":{
+				"type":"Point",
+				"coordinates":[-80.2089,25.7753]},
+		}
+
+	],
+			"bbox":[-179.463,-60.7674,-2.9,178.4321,67.0311,609.13]
+
+			});
