@@ -29,12 +29,21 @@ function initMap() {
 
   map.data.setStyle(styleFeature);
 
+<<<<<<< HEAD
+  // Get the population data (JSONP format)
+  // This is the json the data is pulled from
+  // 
+  var script = document.createElement('script');
+  script.setAttribute('src',
+    'https://garstep.github.io/g.project1e.geo.jsonp');
+=======
   // Get the earthquake data (JSONP format)
   // This feed is a copy from the USGS feed, you can find the originals here:
   //   http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
   var script = document.createElement('script');
   script.setAttribute('src',
-    'http://garstep.com/g.project1e.geo.json');
+    'https://garstep.github.io/g.project1e.geo.jsonp');
+>>>>>>> gh-pages
   document.getElementsByTagName('head')[0].appendChild(script);
 }
 
@@ -175,7 +184,7 @@ var mapStyle = [{
 }
 
 .purple-bg {
-	background: #6d3f96;
+  background: #6d3f96;
 }
 
 
@@ -224,7 +233,7 @@ var mapStyle = [{
 }
 
 .logo img {
-	margin-top: 6px;
+  margin-top: 6px;
 }
 
 
@@ -285,19 +294,19 @@ header {
 }
 
 .pad-xl {
-	padding: 200px 0px;
+  padding: 200px 0px;
 }
 
 .pad-lg {
-	padding: 160px 0px;
+  padding: 160px 0px;
 }
 
 .pad-sm {
-	padding: 80px 0px;
+  padding: 80px 0px;
 }
 
 .pad-xs {
-	padding: 30px 0px;
+  padding: 30px 0px;
 }
 
 
@@ -312,23 +321,23 @@ header {
 }
 
 hr.line {
-	width: 100%;
-	border: 2px solid;
+  width: 100%;
+  border: 2px solid;
 }
 
 .purple {
-	border-color: #6d3f96;
-	color: #6d3f96;
+  border-color: #6d3f96;
+  color: #6d3f96;
 }
 
 .blue {
-	border-color: #70cbce;
-	color: #70cbce
+  border-color: #70cbce;
+  color: #70cbce
 }
 
 .yellow {
-	border-color: #fdc05d;
-	color: #fdc05d;
+  border-color: #fdc05d;
+  color: #fdc05d;
 }
 
 .iphone {
@@ -488,9 +497,9 @@ footer {
 }
 
 .features.last a {
-	color: #70cbce;
-	font-size: 14px;
-	letter-spacing: 1px;
+  color: #70cbce;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
 .pricing-container .btn {
